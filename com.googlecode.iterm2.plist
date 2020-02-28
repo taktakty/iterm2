@@ -204,7 +204,7 @@ Log.Toggle</string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>475 486 799 448 0 0 1792 1097 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1750 1097 0 0 1792 1097 </string>
+	<string>0 0 1792 1098 0 0 1792 1097 </string>
 	<key>NeverWarnAboutShortLivedSessions_598ACB5D-404E-488B-916B-98C2E78FB7BE</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_598ACB5D-404E-488B-916B-98C2E78FB7BE_selection</key>
@@ -768,7 +768,7 @@ Log.Toggle</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>NotoMonoForPowerline 14</string>
+			<string>NotoMonoForPowerline 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -780,7 +780,7 @@ Log.Toggle</string>
 			<key>Screen</key>
 			<integer>-2</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1410,7 +1410,7 @@ admin-down|admin down|down|Down|init|Init</string>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>1</integer>
+			<integer>15</integer>
 			<key>Working Directory</key>
 			<string>/Users/a018454</string>
 		</dict>
@@ -1433,7 +1433,7 @@ admin-down|admin down|down|Down|init|Init</string>
 	<key>NoSyncInstallationId</key>
 	<string>749C412C-97CF-43DB-BCC5-3AC4424768AF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1793,6 +1793,14 @@ admin-down|admin down|down|Down|init|Init</string>
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.terminalIconName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
